@@ -1,0 +1,4 @@
+- Bash(rm *): the agent should not delete files as this is the author's decision, preventing data loss.
+- Bash(git push *): the agent must not push code directly to remote, avoiding unreviewed changes.
+- Bash(docker *): the agent should not manage docker containers directly, keeping host safe.
+- WebFetch: the agent must not fetch external content to ensure builds remain hermetic and reproducible.
